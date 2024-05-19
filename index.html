@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Navigation Bar with Search Box</title>
+
+   <!-- ===== FONT AWESOME CSS ===== -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+   <!-- Linking stylesheet  -->
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <nav class="nav">
+      <i class="fa-solid fa-bars navOpenBtn"></i>
+      <a href="#" class="logo">LifeSaver</a>
+
+      <ul class="nav-links">
+         <i class="fa-solid fa-xmark navCloseBtn"></i>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About Us</a></li>
+         <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="header-action navBtn">
+         <button><a href="https://rzp.io/l/QDMSYX7jD"><span>Donate </span><span><i
+                     class="fa-regular fa-heart"></i></span></a></button>
+      </div>
+   </nav>
+
+   <!--==================== MAIN SECTION ====================-->
+   <main>
+      <section id="home" class="hero">
+         <div class="container">
+            <p class="greet">
+               <img src="images/subtitle-img-white.png" alt="">
+               <span>Welcome to LifeSaver</span>
+            </p>
+            <div class="main_heading">
+               <h1 class="heading1">Give Love for Saving</h1>
+               <h1 class="heading2">Children's future</h1>
+            </div>
+            <div class="caption">
+               <p>
+                  Together, we can give these young champions the tools they need to <br>
+                  achieve their dreams and build a better future. 
+               </p>
+            </div>
+            <div class="header-action">
+               <button id="rzp-button1"><span>Donate </span><span><i class="fa-regular fa-heart"></i></span></button>
+            </div>
+         </div>
+      </section>
+
+      <!-- ===================== About Section ======================== -->
+      <section id="about" class="about">
+         <div class="container">
+            <div class="about-banner">
+               <h2 class="deco-title">About Us</h2>
+               <img src="images/deco-img.png" height="261" alt="" class="deco-img">
+               <div class="banner-row">
+
+                  <div class="banner-col">
+                     <img src="images/1 new.png" width="270" loading="lazy" alt="Tiger" class="about-img show1">
+
+                     <img src="images/2.jpg" width="290" loading="lazy" alt="Panda" class="about-img show2">
+                  </div>
+
+                  <div class="banner-col">
+                     <img src="images/4.jpg" width="260" loading="lazy" alt="Deer" class="about-img show3">
+
+                     <img src="images/5.jpg" width="250" loading="lazy" alt="Elephant" class="about-img show4">
+                  </div>
+
+               </div>
+            </div>
+            <div class="about-content">
+               <p class="section-subtitle">
+                  <img src="images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
+                  <span>Why Choose Us</span>
+               </p>
+
+               <h2 class="h2 section-title">
+                  Rise Your Hand to Save <strong>Our Next Generation</strong>
+               </h2>
+
+               <ul class="tab-nav">
+
+                  <li>
+                     <button class="tab-btn active">Our Mission</button>
+                  </li>
+
+                  <li>
+                     <button class="tab-btn">Our Vision</button>
+                  </li>
+
+                  <li>
+                     <button class="tab-btn">Next Plan</button>
+                  </li>
+
+               </ul>
+
+               <div class="tab-content">
+
+                  <p class="section-text">
+                     With your donation, you can make a difference in the lives of underserved children and provide them
+                     with a happy and safe childhood.
+                     Together, we can give these young champions the tools they need to achieve their dreams and build a
+                     better future.
+                  </p>
+
+                  <ul class="tab-list">
+
+                     <li class="tab-item">
+                        <div class="item-icon">
+                           <span class="material-symbols-outlined">check_circle</span>
+                        </div>
+
+                        <p class="tab-text">Charity For Foods</p>
+                     </li>
+
+                     <li class="tab-item">
+                        <div class="item-icon">
+                           <span class="material-symbols-outlined">check_circle</span>
+                        </div>
+
+                        <p class="tab-text">Charity For Education</p>
+                     </li>
+
+                     <li class="tab-item">
+                        <div class="item-icon">
+                           <span class="material-symbols-outlined">check_circle</span>
+                        </div>
+
+                        <p class="tab-text">Charity For Water</p>
+                     </li>
+
+                     <li class="tab-item">
+                        <div class="item-icon">
+                           <span class="material-symbols-outlined">check_circle</span>
+                        </div>
+
+                        <p class="tab-text">Charity For Medical</p>
+                     </li>
+
+                  </ul>
+
+                  <button class="btn">
+                     <span>Learn More Us</span>
+                     <i class="fa fa-arrow-right"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- ======================= CONTACT SECTION ===================== -->
+
+      <section class="contact-section" id="contact">
+         <div class="contact-intro">
+            <h2 class="contact-title">Get in Touch</h2>
+            <p class="contact-description">
+               Fill out the form below and we'll get back to you as soon as possible.
+            </p>
+         </div>
+
+         <form class="contact-form" action="">
+
+            <div class="form-group-container">
+               <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+               </div>
+               <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+               </div>
+               <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input id="phone" name="phone" class="form-input" placeholder="+91 9999 9999" type="text" />
+               </div>
+               <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+               </div>
+            </div>
+            <button class="form-submit" type="submit">Send Message</button>
+         </form>
+
+      </section>
+   </main>
+
+   <footer>
+      <section id="footer" class="footer">
+         <p>&copy; Copyright 2023 LifeSaver. All right Reserved</p>
+      </section>
+   </footer>
+
+   <!-- =============== RAZORPAY INTEGRATION =============== -->
+   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+   <script>
+      var options = {
+         "key": "rzp_test_uR6R221eI2qJQP",
+         "amount": "10000",
+         "currency": "INR",
+         "description": "LifeSaver",
+         "image": "example.com/image/rzp.jpg",
+         "prefill":
+         {
+            "email": "gaurav.kumar@example.com",
+            "contact": +919900000000,
+         },
+         config: {
+            display: {
+               blocks: {
+                  banks: {
+                     name: 'All payment methods',
+                     instruments: [
+                        {
+                           method: 'upi'
+                        },
+                        {
+                           method: 'paypal'
+                        },
+                        {
+                           method: 'card'
+                        },
+                        {
+                           method: 'wallet'
+                        },
+                        {
+                           method: 'netbanking'
+                        }
+                     ],
+                  },
+               },
+               sequence: ['block.banks'],
+               preferences: {
+                  show_default_blocks: false,
+               },
+            },
+         },
+         "handler": function (response) {
+            alert(response.razorpay_payment_id);
+         },
+         "modal": {
+            "ondismiss": function () {
+               if (confirm("Are you sure, you want to close the form?")) {
+                  txt = "You pressed OK!";
+                  console.log("Checkout form closed by the user");
+               } else {
+                  txt = "You pressed Cancel!";
+                  console.log("Complete the Payment")
+               }
+            }
+         }
+      };
+      var rzp1 = new Razorpay(options);
+      document.getElementById('rzp-button1').onclick = function (e) {
+         rzp1.open();
+         e.preventDefault();
+      }
+   </script>
+
+   <script src="main.js" defer></script>
+
+
+</body>
+
+</html>
